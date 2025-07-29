@@ -17,7 +17,7 @@ function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        fetch("http://localhost:3001/api/login", {
+        fetch("https://login-registration-2.onrender.com/api/login", {
             method: "POST",
             headers: {  // ✅ FIXED HERE
                 "Content-Type": "application/json"
