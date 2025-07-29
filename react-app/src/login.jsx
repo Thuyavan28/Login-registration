@@ -64,6 +64,7 @@ function Login() {
                         <label className="text-2xl text-blue-700"><strong>Password</strong></label>
                         <br />
                         <input
+ autoComplete="current-password"
                             type="password"
                             value={values.password}
                             name="password"
