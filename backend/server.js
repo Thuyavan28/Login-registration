@@ -6,7 +6,7 @@ const db = require('./db'); // ✅ Correct import now
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: ['http://localhost:5173', 'https://logins28.netlify.app'],
   credentials: true
 }));
 app.use(express.json());
