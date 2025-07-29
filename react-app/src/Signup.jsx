@@ -21,7 +21,7 @@ function Signup() {  // ← rename this from App to Signup
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetch("http://localhost:3001/api/signup", {
+    fetch("https://login-registration-2.onrender.com/api/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
