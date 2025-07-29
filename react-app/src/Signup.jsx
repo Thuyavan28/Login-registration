@@ -58,7 +58,9 @@ function Signup() {  // ← rename this from App to Signup
           <div className='mb-5'>
             <label className='text-blue-600'><strong>Name</strong></label>
             <input
+
               type='text'
+               autoComplete="current-password"
               placeholder='Enter Name'
               name='name'
               className='w-full mt-2 p-2 text-blue-500 border border-gray-300 rounded'
