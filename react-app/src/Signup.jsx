@@ -60,7 +60,7 @@ function Signup() {  // ← rename this from App to Signup
             <input
 
               type='text'
-               autoComplete="current-password"
+               
               placeholder='Enter Name'
               name='name'
               className='w-full mt-2 p-2 text-blue-500 border border-gray-300 rounded'
@@ -83,6 +83,7 @@ function Signup() {  // ← rename this from App to Signup
             <label className='text-blue-600'><strong>Password</strong></label>
             <input
               type='password'
+ autoComplete="current-password"
               placeholder='Enter Password'
               name='password'
               className='w-full mt-2 p-2 text-blue-500 border border-gray-300 rounded'
