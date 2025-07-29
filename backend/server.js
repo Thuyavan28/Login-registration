@@ -9,6 +9,7 @@ app.use(cors({
   origin: ['http://localhost:5173', 'https://logins28.netlify.app'],
   credentials: true
 }));
+
 app.use(express.json());
 
 // Test DB connection
